@@ -16,7 +16,6 @@ struct InformationView: View {
                 Text("Information on how to identify plastics")
                     .font(.title2)
                     .padding()
-                    .background(Color(red: 154/255, green: 199/255, blue: 116/255))
                     .cornerRadius(10)
                     .foregroundColor(.black)
                     .padding(.bottom, 20)

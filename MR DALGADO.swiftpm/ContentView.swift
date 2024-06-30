@@ -15,9 +15,7 @@ struct ContentView: View {
                     .foregroundColor(.black)
                 Spacer()
                 VStack(spacing: 20) {
-                    Button(action: {
-                        // Add action for Bin Info
-                    }) {
+                    NavigationLink(destination:BinInformation()){
                         Text("Bin Info")
                             .font(.title2)
                             .padding()
