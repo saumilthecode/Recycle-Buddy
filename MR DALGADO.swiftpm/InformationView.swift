@@ -22,6 +22,8 @@ struct InformationView: View {
                     .padding(.bottom, 20)
                 VStack(spacing: 20) {
                     VStack {
+                        Spacer()
+
                         HStack {
                             Image("recycle1") // Replace with actual image names
                                 .resizable()
@@ -38,6 +40,8 @@ struct InformationView: View {
 
                             }
                         }
+                        
+                        Spacer()
 
                         HStack {
                             Image("recycle2") // Replace with actual image names
@@ -51,6 +55,8 @@ struct InformationView: View {
                                 .foregroundColor(.black)
                                 .cornerRadius(10)
                         }
+                        
+                        Spacer()
 
                         HStack {
                             Image("recycle3") // Replace with actual image names
@@ -64,6 +70,8 @@ struct InformationView: View {
                                 .foregroundColor(.black)
                                 .cornerRadius(10)
                         }
+                        Spacer()
+
 
                         HStack {
                             Image("recycle4") // Replace with actual image names
@@ -77,6 +85,8 @@ struct InformationView: View {
                                 .foregroundColor(.black)
                                 .cornerRadius(10)
                         }
+                        Spacer()
+
 
                         HStack {
                             Image("recycle5") // Replace with actual image names
@@ -90,6 +100,7 @@ struct InformationView: View {
                                 .foregroundColor(.black)
                                 .cornerRadius(10)
                         }
+                        Spacer()
 
                         HStack {
                             Image("recycle6") // Replace with actual image names
@@ -103,6 +114,7 @@ struct InformationView: View {
                                 .foregroundColor(.black)
                                 .cornerRadius(10)
                         }
+                        Spacer()
 
                         HStack {
                             Image("recycle7") // Replace with actual image names
@@ -116,6 +128,9 @@ struct InformationView: View {
                                 .foregroundColor(.black)
                                 .cornerRadius(10)
                         }
+                        Spacer()
+                        Spacer()
+
                     }
                     .padding()
                     Spacer()

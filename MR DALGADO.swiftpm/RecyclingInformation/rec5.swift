@@ -1,13 +1,13 @@
 //
-//  rec1.swift
-//
+//  rec5.swift
+//  
 //
 //  Created by Saumil Anand on 30/6/24.
 //
 
 import SwiftUI
 
-struct rec1: View {
+struct rec5: View {
     var body: some View {
         NavigationStack {
             ZStack {
@@ -15,17 +15,17 @@ struct rec1: View {
                     .ignoresSafeArea()
                 
                 VStack {
-                    Image("recycle1")
+                    Image("recycle5")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 100, height: 100)
                         .padding(.top, 30)
-                    Text("PET 1")
+                    Text("PP")
                         .font(.title)
                         .fontWeight(.bold)
                         .padding(.top, 20)
                     
-                    Text("PETE is short for Polyethylene Terephthalate, and is a kind of plastic found in everyday items, such as drinking bottles, food packaging containers, etc. These are able to be recycled, and can be turned into new items. These items can be thrown into the blue recycling bins.")
+                    Text("PP is short for Polypropylene, which is lightweight and has good heat resistance. It is commonly used in items such as takeaway food packaging and food containers, tofu tubs, plastic bags, etc. This can be recycled as well, so dispose of them in the blue bins.")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.top, 10)
@@ -35,8 +35,9 @@ struct rec1: View {
             .navigationTitle("Recycling Information")
         }
     }
+    
 }
 
 #Preview {
-    rec1()
+    rec5()
 }

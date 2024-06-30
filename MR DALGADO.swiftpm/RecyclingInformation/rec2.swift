@@ -1,5 +1,5 @@
 //
-//  rec1.swift
+//  rec2.swift
 //
 //
 //  Created by Saumil Anand on 30/6/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct rec1: View {
+struct rec2: View {
     var body: some View {
         NavigationStack {
             ZStack {
@@ -15,17 +15,17 @@ struct rec1: View {
                     .ignoresSafeArea()
                 
                 VStack {
-                    Image("recycle1")
+                    Image("recycle2")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 100, height: 100)
                         .padding(.top, 30)
-                    Text("PET 1")
+                    Text("HDPE")
                         .font(.title)
                         .fontWeight(.bold)
                         .padding(.top, 20)
                     
-                    Text("PETE is short for Polyethylene Terephthalate, and is a kind of plastic found in everyday items, such as drinking bottles, food packaging containers, etc. These are able to be recycled, and can be turned into new items. These items can be thrown into the blue recycling bins.")
+                    Text("HDPE is short for High Density Polyethylene, and it is made from petroleum. They are strong and durable. It is used in items like rigid bottles like milk bottles or shampoo bottles, as well as in bottle caps/lids, pipes and food containers.")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.top, 10)
@@ -35,8 +35,13 @@ struct rec1: View {
             .navigationTitle("Recycling Information")
         }
     }
+    
 }
 
 #Preview {
-    rec1()
+    rec2()
 }
+
+
+
+
