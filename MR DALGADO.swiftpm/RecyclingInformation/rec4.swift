@@ -1,9 +1,4 @@
-//
-//  rec4.swift
-//  
-//
-//  Created by Saumil Anand on 30/6/24.
-//
+
 
 import SwiftUI
 
@@ -29,6 +24,11 @@ struct rec4: View {
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.top, 10)
+                    Text("Some common items its found in is Bread bags, cell phone, screen protectors, food container lids")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.top, 10)
+
                 }
                 .foregroundColor(.black)
             }

@@ -1,9 +1,3 @@
-//
-//  InformationView.swift
-//  My App
-//
-//  Created by Saumil Anand on 30/6/24.
-//
 
 import SwiftUI
 
@@ -160,8 +154,6 @@ struct InformationView: View {
     }
 }
 
-struct InformationView_Previews: PreviewProvider {
-    static var previews: some View {
-        InformationView()
-    }
+#Preview {
+    InformationView()
 }

@@ -24,9 +24,7 @@ struct ContentView: View {
                             .foregroundColor(.black)
                             .cornerRadius(10)
                     }
-                    Button(action: {
-                        // Add action for Quiz
-                    }) {
+                    NavigationLink(destination: QuizView()) {
                         Text("Quiz")
                             .font(.title2)
                             .padding()
@@ -44,6 +42,7 @@ struct ContentView: View {
                             .foregroundColor(.black)
                             .cornerRadius(10)
                     }
+
                 }
                 .padding()
                 Spacer()
@@ -54,8 +53,6 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }

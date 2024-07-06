@@ -1,9 +1,3 @@
-//
-//  rec6.swift
-//  
-//
-//  Created by Saumil Anand on 30/6/24.
-//
 
 import SwiftUI
 
@@ -29,6 +23,12 @@ struct rec6: View {
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.top, 10)
+                    Text("Some common items its found in is disposable cups, measuring cups, dairy product bottles, takeout soup containers, pill packs, etc.")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.top, 10)
+
+
                 }
                 .foregroundColor(.black)
             }

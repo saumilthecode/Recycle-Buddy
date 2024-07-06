@@ -1,9 +1,3 @@
-//
-//  rec7.swift
-//  
-//
-//  Created by Saumil Anand on 30/6/24.
-//
 
 import SwiftUI
 
@@ -29,6 +23,11 @@ struct rec7: View {
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.top, 10)
+                    Text("Some common items its found in is takeaway containers, phone cases, CD/DVD, etc.")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.top, 10)
+
                 }
                 .foregroundColor(.black)
             }

@@ -1,9 +1,3 @@
-//
-//  rec2.swift
-//
-//
-//  Created by Saumil Anand on 30/6/24.
-//
 
 import SwiftUI
 
@@ -29,6 +23,11 @@ struct rec2: View {
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.top, 10)
+                    Text("Some common items its found in is detergent and shampoo bottles, milk jugs.")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.top, 10)
+
                 }
                 .foregroundColor(.black)
             }

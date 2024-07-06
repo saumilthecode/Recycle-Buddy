@@ -18,7 +18,7 @@ let package = Package(
             targets: ["AppModule"],
             displayVersion: "1.0",
             bundleVersion: "1",
-            appIcon: .placeholder(icon: .paper),
+            appIcon: .placeholder(icon: .leaf),
             accentColor: .presetColor(.green),
             supportedDeviceFamilies: [
                 .pad,
@@ -32,9 +32,15 @@ let package = Package(
             ]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/ivanvorobei/SPConfetti", "1.4.2"..<"2.0.0")
+    ],
     targets: [
         .executableTarget(
             name: "AppModule",
+            dependencies: [
+                .product(name: "SPConfetti", package: "spconfetti")
+            ],
             path: ".",
             swiftSettings: [
                 .enableUpcomingFeature("BareSlashRegexLiterals")

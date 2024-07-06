@@ -9,7 +9,7 @@ struct BinInformation: View {
                         .font(.headline)
                         .padding()
                         .frame(maxWidth: .infinity, alignment: .center)
-
+                    
                     VStack(spacing: 20) {
                         HStack {
                             Image("recycle_bin") // replace with the name of your image
@@ -39,6 +39,16 @@ struct BinInformation: View {
                     .background(Color(red: 177/255, green: 239/255, blue: 239/255))
                     .cornerRadius(10)
                 }
+                NavigationLink(destination:WhyRecycleView()){
+                    Text("Why recycle")
+                        .font(.title2)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(Color(red: 154/255, green: 199/255, blue: 116/255))
+                        .foregroundColor(.black)
+                        .cornerRadius(10)
+                }
+                
                 .padding()
             }
             .background(Color(red: 177/255, green: 239/255, blue: 239/255))
@@ -47,8 +57,6 @@ struct BinInformation: View {
     }
 }
 
-struct BinInformation_Previews: PreviewProvider {
-    static var previews: some View {
-        BinInformation()
-    }
+#Preview {
+    BinInformation()
 }

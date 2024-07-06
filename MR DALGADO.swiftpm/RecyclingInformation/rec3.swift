@@ -1,9 +1,3 @@
-//
-//  rec3.swift
-//  
-//
-//  Created by Saumil Anand on 30/6/24.
-//
 
 import SwiftUI
 
@@ -29,6 +23,12 @@ struct rec3: View {
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.top, 10)
+                    
+                    Text("Some common items its found in is pipes, synthetic leather shoes and bags,raincoats")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.top, 10)
+
                 }
                 .foregroundColor(.black)
             }
