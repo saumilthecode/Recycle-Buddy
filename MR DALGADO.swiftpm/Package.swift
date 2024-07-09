@@ -16,6 +16,8 @@ let package = Package(
         .iOSApplication(
             name: "MRDALGADO",
             targets: ["AppModule"],
+            bundleIdentifier: "tk.sg.recycling",
+            teamIdentifier: "XL5JK4F896",
             displayVersion: "1.0",
             bundleVersion: "1",
             appIcon: .placeholder(icon: .leaf),
